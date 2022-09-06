@@ -1,4 +1,4 @@
-FROM golang:1.18
+FROM golang:1.17
 MAINTAINER shichuanling97@gmail.com
 
 
@@ -13,6 +13,7 @@ RUN go get github.com/gorilla/handlers
 RUN go get github.com/gorilla/mux
 RUN go get github.com/olivere/elastic/v7
 RUN go get github.com/pborman/uuid
+RUN go get gopkg.in/yaml.v2
 
 
 EXPOSE 8080

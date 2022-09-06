@@ -2,6 +2,8 @@ module around
 
 go 1.18
 
+require gopkg.in/yaml.v2 v2.4.0
+
 require (
 	cloud.google.com/go v0.102.1 // indirect
 	cloud.google.com/go/compute v1.7.0 // indirect
